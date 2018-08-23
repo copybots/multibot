@@ -37,25 +37,25 @@ active_20 = False
 selfbot_1 = True
 token_1 = str(os.environ.get("TOKEN_1"))
 commands_server_id_1 = "416173426252972052"
-commands_channel_id_1 = "481502263425368079"
+commands_channel_id_1 = "461496846464843780"
 
 #Shopify Bot
 selfbot_2 = False
 token_2 = str(os.environ.get("TOKEN_2"))
 commands_server_id_2 = "416173426252972052"
-commands_channel_id_2 = "481502280072298506"
+commands_channel_id_2 = "461496897505329162"
 
 #SNKRS Selfbot
 selfbot_3 = True
 token_3 = str(os.environ.get("TOKEN_3"))
-commands_server_id_3 = "000000000000000000"
-commands_channel_id_3 = "000000000000000000"
+commands_server_id_3 = "416173426252972052"
+commands_channel_id_3 = "461504136840740874"
 
 #SNKRS Bot
 selfbot_4 = False
 token_4 = str(os.environ.get("TOKEN_4"))
-commands_server_id_4 = "000000000000000000"
-commands_channel_id_4 = "000000000000000000"
+commands_server_id_4 = "416173426252972052"
+commands_channel_id_4 = "461504110093533194"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_5 = True
