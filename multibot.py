@@ -12,8 +12,8 @@ import os
 
 active_1 = True
 active_2 = True
-active_3 = False
-active_4 = False
+active_3 = True
+active_4 = True
 active_5 = False
 active_6 = False
 active_7 = False
@@ -33,26 +33,26 @@ active_20 = False
 
 
 
-#Monitor Bot
-selfbot_1 = False
+#Shopify Selfbot
+selfbot_1 = True
 token_1 = str(os.environ.get("TOKEN_1"))
 commands_server_id_1 = "416173426252972052"
 commands_channel_id_1 = "481502263425368079"
 
-#HQ Big Boi selfbot
-selfbot_2 = True
+#Shopify Bot
+selfbot_2 = False
 token_2 = str(os.environ.get("TOKEN_2"))
 commands_server_id_2 = "416173426252972052"
 commands_channel_id_2 = "481502280072298506"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#SNKRS Selfbot
 selfbot_3 = True
 token_3 = str(os.environ.get("TOKEN_3"))
 commands_server_id_3 = "000000000000000000"
 commands_channel_id_3 = "000000000000000000"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_4 = True
+#SNKRS Bot
+selfbot_4 = False
 token_4 = str(os.environ.get("TOKEN_4"))
 commands_server_id_4 = "000000000000000000"
 commands_channel_id_4 = "000000000000000000"
