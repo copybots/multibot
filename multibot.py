@@ -280,6 +280,64 @@ bot_20.commands_channel_id = commands_channel_id_20
 
 
 
+async def edit_check(bot):
+
+	global globaldata
+
+	await bot.wait_until_ready()
+
+	await asyncio.sleep(2)
+	edit_msg_list = globaldata[bot.unique_id]["edit_msg_list"]
+
+	while not bot.is_closed:
+		await asyncio.sleep(0.1)
+		for edit_msg in edit_msg_list:
+			if edit_msg["copy_message_object"].content != edit_msg["message_content"]:
+				try:
+					await bot.edit_message(edit_msg["post_message_object"], new_content=text_message_filter(edit_msg["copy_message_object"].content, bot))
+					edit_msg_list[edit_msg_list.index(edit_msg)]["message_content"] = edit_msg["copy_message_object"].content
+				except Exception:
+					pass
+				
+				
+				
+				
+				
+def text_message_filter(original_message, bot):
+
+	global globaldata
+
+	case_sensitive_wordlist = globaldata[bot.unique_id]["filedata"]["case_sensitive_wordlist"]
+	wordlist = globaldata[bot.unique_id]["filedata"]["wordlist"]
+
+	local_new_message = original_message
+	if case_sensitive_wordlist:
+		for word in wordlist:
+			local_new_message = local_new_message.replace(word, "")
+	else:
+		lowercase_message = local_new_message.lower()
+		new_letters = list(local_new_message)
+		letter_index = 0
+		uppercase_letter_indexes = []
+		for letter in new_letters:
+			if letter.isupper():
+				uppercase_letter_indexes.append(letter_index)
+			letter_index += 1
+		del letter_index
+		for word in wordlist:
+			replacement_word = len(word) * "�"
+			lowercase_message = lowercase_message.replace(word.lower(), replacement_word)
+		lowercase_letters = list(lowercase_message)
+		for letter_index in uppercase_letter_indexes:
+			lowercase_letters[letter_index] = lowercase_letters[letter_index].upper()
+		local_new_message = "".join(lowercase_letters)
+		local_new_message = local_new_message.replace("�", "")
+	return local_new_message
+
+
+
+
+
 async def on_ready_code(bot):
 
 	global globaldata
@@ -1029,7 +1087,7 @@ async def on_message_code(bot, message):
 															"message_content" : message.content,
 															"message_type" : "text"})
 
-									new_message = text_message_filter(message.content)
+									new_message = text_message_filter(message.content, bot)
 									edit_msg_list[0]["post_message_object"] = await bot.send_message(channel_object, new_message)
 
 					if message.attachments != []:
@@ -1294,43 +1352,63 @@ async def on_message(message):
 args = []
 if active_1:
 	args.append(bot_1.start(token_1, bot=not(selfbot_1)))
+	bot_1.loop.create_task(edit_check(bot_1))
 if active_2:
 	args.append(bot_2.start(token_2, bot=not(selfbot_2)))
+	bot_2.loop.create_task(edit_check(bot_2))
 if active_3:
 	args.append(bot_3.start(token_3, bot=not(selfbot_3)))
+	bot_3.loop.create_task(edit_check(bot_3))
 if active_4:
 	args.append(bot_4.start(token_4, bot=not(selfbot_4)))
+	bot_4.loop.create_task(edit_check(bot_4))
 if active_5:
 	args.append(bot_5.start(token_5, bot=not(selfbot_5)))
+	bot_5.loop.create_task(edit_check(bot_5))
 if active_6:
 	args.append(bot_6.start(token_6, bot=not(selfbot_6)))
+	bot_6.loop.create_task(edit_check(bot_6))
 if active_7:
 	args.append(bot_7.start(token_7, bot=not(selfbot_7)))
+	bot_7.loop.create_task(edit_check(bot_7))
 if active_8:
 	args.append(bot_8.start(token_8, bot=not(selfbot_8)))
+	bot_8.loop.create_task(edit_check(bot_8))
 if active_9:
 	args.append(bot_9.start(token_9, bot=not(selfbot_9)))
+	bot_9.loop.create_task(edit_check(bot_9))
 if active_10:
 	args.append(bot_10.start(token_10, bot=not(selfbot_10)))
+	bot_10.loop.create_task(edit_check(bot_10))
 if active_11:
 	args.append(bot_11.start(token_11, bot=not(selfbot_11)))
+	bot_11.loop.create_task(edit_check(bot_11))
 if active_12:
 	args.append(bot_12.start(token_12, bot=not(selfbot_12)))
+	bot_12.loop.create_task(edit_check(bot_12))
 if active_13:
 	args.append(bot_13.start(token_13, bot=not(selfbot_13)))
+	bot_13.loop.create_task(edit_check(bot_13))
 if active_14:
 	args.append(bot_14.start(token_14, bot=not(selfbot_14)))
+	bot_14.loop.create_task(edit_check(bot_14))
 if active_15:
 	args.append(bot_15.start(token_15, bot=not(selfbot_15)))
+	bot_15.loop.create_task(edit_check(bot_15))
 if active_16:
 	args.append(bot_16.start(token_16, bot=not(selfbot_16)))
+	bot_16.loop.create_task(edit_check(bot_16))
 if active_17:
 	args.append(bot_17.start(token_17, bot=not(selfbot_17)))
+	bot_17.loop.create_task(edit_check(bot_17))
 if active_18:
 	args.append(bot_18.start(token_18, bot=not(selfbot_18)))
+	bot_18.loop.create_task(edit_check(bot_18))
 if active_19:
 	args.append(bot_19.start(token_19, bot=not(selfbot_19)))
+	bot_19.loop.create_task(edit_check(bot_19))
 if active_20:
 	args.append(bot_20.start(token_20, bot=not(selfbot_20)))
+	bot_20.loop.create_task(edit_check(bot_20))
 
 client.loop.run_until_complete(asyncio.gather(*args))
