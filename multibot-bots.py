@@ -388,7 +388,7 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587970462449664"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059507646201886"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "006":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587994399342602"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059558489817088"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "007":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["459515052765216768"], "post_server_ids": ["478319635192610816", "455268032571244545"], "post_channel_ids": ["478320176161357825", "455269256133738506"]}, "memberlist": ["454205578537861121", "245365926080413696", "330813369898762240"], "wordlist": [], "case_sensitive_wordlist": True}
