@@ -71,11 +71,11 @@ token_6 = str(os.environ.get("TOKEN_6"))
 commands_server_id_6 = "000000000000000000"
 commands_channel_id_6 = "000000000000000000"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_7 = True
+#HQ Trivia Bot
+selfbot_7 = False
 token_7 = str(os.environ.get("TOKEN_7"))
-commands_server_id_7 = "000000000000000000"
-commands_channel_id_7 = "000000000000000000"
+commands_server_id_7 = "416173426252972052"
+commands_channel_id_7 = "478370073430589442"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_8 = True
