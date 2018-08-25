@@ -1,1 +1,1 @@
-worker: python multibot.py
+worker: python multibot-bots.py
