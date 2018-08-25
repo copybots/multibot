@@ -12,8 +12,8 @@ import os
 
 active_1 = True
 active_2 = True
-active_3 = True
-active_4 = True
+active_3 = False
+active_4 = False
 active_5 = False
 active_6 = False
 active_7 = False
@@ -33,29 +33,29 @@ active_20 = False
 
 
 
-#Shopify Selfbot
-selfbot_1 = True
+#Shopify Bot
+selfbot_1 = False
 token_1 = str(os.environ.get("TOKEN_1"))
 commands_server_id_1 = "416173426252972052"
-commands_channel_id_1 = "461496846464843780"
+commands_channel_id_1 = "461496897505329162"
 
-#Shopify Bot
+#SNKRS Bot
 selfbot_2 = False
 token_2 = str(os.environ.get("TOKEN_2"))
 commands_server_id_2 = "416173426252972052"
-commands_channel_id_2 = "461496897505329162"
+commands_channel_id_2 = "461504110093533194"
 
-#SNKRS Selfbot
+#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_3 = True
 token_3 = str(os.environ.get("TOKEN_3"))
-commands_server_id_3 = "416173426252972052"
-commands_channel_id_3 = "461504136840740874"
+commands_server_id_3 = "000000000000000000"
+commands_channel_id_3 = "000000000000000000"
 
-#SNKRS Bot
+#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_4 = False
 token_4 = str(os.environ.get("TOKEN_4"))
-commands_server_id_4 = "416173426252972052"
-commands_channel_id_4 = "461504110093533194"
+commands_server_id_4 = "000000000000000000"
+commands_channel_id_4 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_5 = True
