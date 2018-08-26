@@ -46,7 +46,7 @@ commands_server_id_2 = "416173426252972052"
 commands_channel_id_2 = "461504110093533194"
 
 #Supreme Bot
-selfbot_3 = True
+selfbot_3 = False
 token_3 = str(os.environ.get("TOKEN_3"))
 commands_server_id_3 = "416173426252972052"
 commands_channel_id_3 = "483375930652491809"
@@ -379,7 +379,7 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["461635403003199499"], "post_server_ids": ["455275822807252993", "478003659519688704","456445523960791042"], "post_channel_ids": ["457811787861983244", "478004362875109387"]}, "memberlist": ["454205578537861121"], "wordlist": [], "case_sensitive_wordlist": True}
 
 	elif bot.unique_id == "003":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["483061720852594729"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478004385771814913"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 		
 	elif bot.unique_id == "004":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587952468623370"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059460468932636"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
