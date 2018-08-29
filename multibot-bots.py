@@ -16,11 +16,11 @@ active_3 = True
 active_4 = True
 active_5 = True
 active_6 = True
-active_7 = True
-active_8 = False
-active_9 = False
-active_10 = False
-active_11 = False
+active_7 = False
+active_8 = True
+active_9 = True
+active_10 = True
+active_11 = True
 active_12 = False
 active_13 = False
 active_14 = False
@@ -77,31 +77,31 @@ token_7 = str(os.environ.get("TOKEN_7"))
 commands_server_id_7 = "416173426252972052"
 commands_channel_id_7 = "478370073430589442"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQUS
 selfbot_8 = True
 token_8 = str(os.environ.get("TOKEN_8"))
-commands_server_id_8 = "000000000000000000"
-commands_channel_id_8 = "000000000000000000"
+commands_server_id_8 = "478003659519688704"
+commands_channel_id_8 = "484108268323602433"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQEU
 selfbot_9 = True
 token_9 = str(os.environ.get("TOKEN_9"))
-commands_server_id_9 = "000000000000000000"
-commands_channel_id_9 = "000000000000000000"
+commands_server_id_9 = "478003659519688704"
+commands_channel_id_9 = "484108283095941123"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQDE
 selfbot_10 = True
 token_10 = str(os.environ.get("TOKEN_10"))
-commands_server_id_10 = "000000000000000000"
-commands_channel_id_10 = "000000000000000000"
+commands_server_id_10 = "478003659519688704"
+commands_channel_id_10 = "484108303907946496"
 
 
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#HQAU
 selfbot_11 = True
 token_11 = str(os.environ.get("TOKEN_11"))
-commands_server_id_11 = "000000000000000000"
-commands_channel_id_11 = "000000000000000000"
+commands_server_id_11 = "478003659519688704"
+commands_channel_id_11 = "484108325928304652"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_12 = True
@@ -394,16 +394,16 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["459515052765216768"], "post_server_ids": ["478319635192610816", "455268032571244545"], "post_channel_ids": ["478320176161357825", "455269256133738506"]}, "memberlist": ["454205578537861121", "245365926080413696", "330813369898762240"], "wordlist": [], "case_sensitive_wordlist": True}
 
 	elif bot.unique_id == "008":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138369794965535"], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330323493978133", "484111227551744010"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "009":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138383484911627"], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330347246452737", "484111240432713739"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "010":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138397930225664"], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330362073055233", "484111255070703627"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "011":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138416276111375"], "post_server_ids" : ["478003659519688704", "455268032571244545"], "post_channel_ids" : ["482330384290414627",  "484111269893373974"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "012":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
