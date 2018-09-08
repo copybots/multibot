@@ -21,8 +21,8 @@ active_8 = True
 active_9 = True
 active_10 = True
 active_11 = True
-active_12 = False
-active_13 = False
+active_12 = True
+active_13 = True
 active_14 = False
 active_15 = False
 active_16 = False
@@ -103,17 +103,17 @@ token_11 = str(os.environ.get("TOKEN_11"))
 commands_server_id_11 = "478003659519688704"
 commands_channel_id_11 = "484108325928304652"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Leaks bot
 selfbot_12 = True
 token_12 = str(os.environ.get("TOKEN_12"))
-commands_server_id_12 = "000000000000000000"
-commands_channel_id_12 = "000000000000000000"
+commands_server_id_12 = "416173426252972052"
+commands_channel_id_12 = "487924814825390090"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Sitelists bot
 selfbot_13 = True
 token_13 = str(os.environ.get("TOKEN_13"))
-commands_server_id_13 = "000000000000000000"
-commands_channel_id_13 = "000000000000000000"
+commands_server_id_13 = "416173426252972052"
+commands_channel_id_13 = "487924861037969408"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_14 = True
@@ -406,10 +406,10 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138416276111375"], "post_server_ids" : ["478003659519688704", "455268032571244545","477522374951174146"], "post_channel_ids" : ["482330384290414627",  "484111269893373974", "486865420952010783"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "012":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923777301250048"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487914656560709632"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "013":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923825338613763"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487926414226751488"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True}
 
 	elif bot.unique_id == "014":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
