@@ -104,25 +104,25 @@ commands_server_id_11 = "478003659519688704"
 commands_channel_id_11 = "484108325928304652"
 
 #Leaks bot
-selfbot_12 = True
+selfbot_12 = False
 token_12 = str(os.environ.get("TOKEN_12"))
 commands_server_id_12 = "416173426252972052"
 commands_channel_id_12 = "487924814825390090"
 
 #Sitelists bot
-selfbot_13 = True
+selfbot_13 = False
 token_13 = str(os.environ.get("TOKEN_13"))
 commands_server_id_13 = "416173426252972052"
 commands_channel_id_13 = "487924861037969408"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_14 = True
+selfbot_14 = False
 token_14 = str(os.environ.get("TOKEN_14"))
 commands_server_id_14 = "000000000000000000"
 commands_channel_id_14 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_15 = True
+selfbot_15 = False
 token_15 = str(os.environ.get("TOKEN_15"))
 commands_server_id_15 = "000000000000000000"
 commands_channel_id_15 = "000000000000000000"
@@ -130,31 +130,31 @@ commands_channel_id_15 = "000000000000000000"
 
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_16 = True
+selfbot_16 = False
 token_16 = str(os.environ.get("TOKEN_16"))
 commands_server_id_16 = "000000000000000000"
 commands_channel_id_16 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_17 = True
+selfbot_17 = False
 token_17 = str(os.environ.get("TOKEN_17"))
 commands_server_id_17 = "000000000000000000"
 commands_channel_id_17 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_18 = True
+selfbot_18 = False
 token_18 = str(os.environ.get("TOKEN_18"))
 commands_server_id_18 = "000000000000000000"
 commands_channel_id_18 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_19 = True
+selfbot_19 = False
 token_19 = str(os.environ.get("TOKEN_19"))
 commands_server_id_19 = "000000000000000000"
 commands_channel_id_19 = "000000000000000000"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
-selfbot_20 = True
+selfbot_20 = False
 token_20 = str(os.environ.get("TOKEN_20"))
 commands_server_id_20 = "000000000000000000"
 commands_channel_id_20 = "000000000000000000"
