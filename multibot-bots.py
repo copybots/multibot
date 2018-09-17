@@ -373,64 +373,64 @@ async def on_ready_code(bot):
 	
 	
 	if bot.unique_id == "001":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["461494200979030016"], "post_server_ids": ["455275822807252993", "478003659519688704"], "post_channel_ids": ["457811512296341515", "478004350384472074"]}, "memberlist": ["454205578537861121"], "wordlist": [], "case_sensitive_wordlist": True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["461494200979030016"], "post_server_ids": ["455275822807252993", "478003659519688704"], "post_channel_ids": ["457811512296341515", "478004350384472074"]}, "memberlist": ["454205578537861121"], "wordlist": [], "case_sensitive_wordlist": True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "002":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["461635403003199499"], "post_server_ids": ["455275822807252993", "478003659519688704","456445523960791042"], "post_channel_ids": ["457811787861983244", "478004362875109387"]}, "memberlist": ["454205578537861121"], "wordlist": [], "case_sensitive_wordlist": True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["461635403003199499"], "post_server_ids": ["455275822807252993", "478003659519688704","456445523960791042"], "post_channel_ids": ["457811787861983244", "478004362875109387"]}, "memberlist": ["454205578537861121"], "wordlist": [], "case_sensitive_wordlist": True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "003":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["483061720852594729"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478004385771814913"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["483061720852594729"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478004385771814913"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 		
 	elif bot.unique_id == "004":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587952468623370"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059460468932636"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587952468623370"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059460468932636"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 		
 	elif bot.unique_id == "005":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587970462449664"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059507646201886"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587970462449664"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059507646201886"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "006":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587994399342602"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059558489817088"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["481587994399342602"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["478059558489817088"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "007":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["459515052765216768"], "post_server_ids": ["478319635192610816", "455268032571244545"], "post_channel_ids": ["478320176161357825", "455269256133738506"]}, "memberlist": ["454205578537861121", "245365926080413696", "330813369898762240"], "wordlist": [], "case_sensitive_wordlist": True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info": {"copy_server_ids": ["456445523960791042"], "copy_channel_ids": ["459515052765216768"], "post_server_ids": ["478319635192610816", "455268032571244545"], "post_channel_ids": ["478320176161357825", "455269256133738506"]}, "memberlist": ["454205578537861121", "245365926080413696", "330813369898762240"], "wordlist": [], "case_sensitive_wordlist": True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "008":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138369794965535"], "post_server_ids" : ["478003659519688704", "455268032571244545","477522374951174146"], "post_channel_ids" : ["482330323493978133", "484111227551744010", "486865291469389845"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138369794965535"], "post_server_ids" : ["478003659519688704", "455268032571244545","477522374951174146"], "post_channel_ids" : ["482330323493978133", "484111227551744010", "486865291469389845"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "009":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138383484911627"], "post_server_ids" : ["478003659519688704", "455268032571244545", "477522374951174146"], "post_channel_ids" : ["482330347246452737", "484111240432713739", "486865322368958465"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138383484911627"], "post_server_ids" : ["478003659519688704", "455268032571244545", "477522374951174146"], "post_channel_ids" : ["482330347246452737", "484111240432713739", "486865322368958465"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "010":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138397930225664"], "post_server_ids" : ["478003659519688704", "455268032571244545", "477522374951174146"], "post_channel_ids" : ["482330362073055233", "484111255070703627", "486865398042722304"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138397930225664"], "post_server_ids" : ["478003659519688704", "455268032571244545", "477522374951174146"], "post_channel_ids" : ["482330362073055233", "484111255070703627", "486865398042722304"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "011":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138416276111375"], "post_server_ids" : ["478003659519688704", "455268032571244545","477522374951174146"], "post_channel_ids" : ["482330384290414627",  "484111269893373974", "486865420952010783"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["484138416276111375"], "post_server_ids" : ["478003659519688704", "455268032571244545","477522374951174146"], "post_channel_ids" : ["482330384290414627",  "484111269893373974", "486865420952010783"]}, "memberlist" : ["454205578537861121", "245365926080413696"], "wordlist" : ["@", "!", "-30", "+9", "+8", "+7", "+6", "+5", "+4", "reacted with the correct answer", "reacted with the incorrect answer"], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "012":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923777301250048"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487914656560709632"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923777301250048"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487914656560709632"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "013":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923825338613763"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487926414226751488"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923825338613763"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487926414226751488"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "014":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "015":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "016":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "017":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "018":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "019":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "020":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 
 
