@@ -19,16 +19,16 @@ active_6 = True
 active_7 = False
 active_8 = True
 active_9 = True
-active_10 = True
-active_11 = True
+active_10 = False
+active_11 = False
 active_12 = True
 active_13 = True
-active_14 = False
-active_15 = False
-active_16 = False
-active_17 = False
-active_18 = False
-active_19 = False
+active_14 = True
+active_15 = True
+active_16 = True
+active_17 = True
+active_18 = True
+active_19 = True
 active_20 = False
 
 
@@ -115,43 +115,43 @@ token_13 = str(os.environ.get("TOKEN_13"))
 commands_server_id_13 = "416173426252972052"
 commands_channel_id_13 = "487924861037969408"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#Kith
 selfbot_14 = False
 token_14 = str(os.environ.get("TOKEN_14"))
-commands_server_id_14 = "000000000000000000"
-commands_channel_id_14 = "000000000000000000"
+commands_server_id_14 = "416173426252972052"
+commands_channel_id_14 = "491852134623739924"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#undefeated
 selfbot_15 = False
 token_15 = str(os.environ.get("TOKEN_15"))
-commands_server_id_15 = "000000000000000000"
-commands_channel_id_15 = "000000000000000000"
+commands_server_id_15 = "416173426252972052"
+commands_channel_id_15 = "491852180362493952"
 
 
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#bodega
 selfbot_16 = False
 token_16 = str(os.environ.get("TOKEN_16"))
-commands_server_id_16 = "000000000000000000"
-commands_channel_id_16 = "000000000000000000"
+commands_server_id_16 = "416173426252972052"
+commands_channel_id_16 = "491852222498603021"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#snkrs china
 selfbot_17 = False
 token_17 = str(os.environ.get("TOKEN_17"))
-commands_server_id_17 = "000000000000000000"
-commands_channel_id_17 = "000000000000000000"
+commands_server_id_17 = "416173426252972052"
+commands_channel_id_17 = "491852260780015616"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#brickseek
 selfbot_18 = False
 token_18 = str(os.environ.get("TOKEN_18"))
-commands_server_id_18 = "000000000000000000"
-commands_channel_id_18 = "000000000000000000"
+commands_server_id_18 = "416173426252972052"
+commands_channel_id_18 = "491852300772704259"
 
-#Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
+#brickseek
 selfbot_19 = False
 token_19 = str(os.environ.get("TOKEN_19"))
-commands_server_id_19 = "000000000000000000"
-commands_channel_id_19 = "000000000000000000"
+commands_server_id_19 = "416173426252972052"
+commands_channel_id_19 = "491852905549266945"
 
 #Leave a comment here with the name and function of the bot (to make it easier to manage all the bots)
 selfbot_20 = False
@@ -412,22 +412,22 @@ async def on_ready_code(bot):
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["487923825338613763"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["487926414226751488"]}, "memberlist" : ["245365926080413696"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
 
 	elif bot.unique_id == "014":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854154935959554"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514770268291073"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "015":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854186737041411"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514998975561769"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "016":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854201505447956"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514791781007371"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "017":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854212796383234"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514813239066633"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "018":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854232404623360"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514834562908161"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "019":
-		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
+		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : ["456445523960791042"], "copy_channel_ids" : ["491854242882256897"], "post_server_ids" : ["478003659519688704"], "post_channel_ids" : ["493514976829636620"]}, "memberlist" : ["454205578537861121"], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "Restocks", "footer_icon": ""}
 
 	elif bot.unique_id == "020":
 		globaldata[bot.unique_id]["filedata"] = {"setup_info" : {"copy_server_ids" : [], "copy_channel_ids" : [], "post_server_ids" : [], "post_channel_ids" : []}, "memberlist" : [], "wordlist" : [], "case_sensitive_wordlist" : True, "header_text": "", "footer_text": "", "footer_icon": ""}
